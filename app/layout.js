@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <header>
           <h1>
             <Link className={styles.homeLink} href={"/home"}>
-              GLOBOMANTICS
+              Global
             </Link>
           </h1>
           <h3>
@@ -42,3 +42,36 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+// export default function RootLayout({ children }) {
+//   return (
+//     <html lang="en" className={inter.className}>
+//       <head />
+//       <body>
+// <header>
+//   <h1>
+//     <Link className={styles.homeLink} href={"/home"}>
+//       Global
+//     </Link>
+//   </h1>
+//   <h3>
+//     <Link className={styles.menuBarLinks} href="/blog">
+//       Blog
+//     </Link>
+//   </h3>
+//   <h3>
+//     <Link className={styles.menuBarLinks} href="/settings">
+//       Settings
+//     </Link>
+//   </h3>
+//   <h3>
+//     <Link className={styles.menuBarLinks} href="/conference">
+//       Conference
+//     </Link>
+//   </h3>
+// </header>
+// {children}
+//       </body>
+//     </html>
+//   );
+// }

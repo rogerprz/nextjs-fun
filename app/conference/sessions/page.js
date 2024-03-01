@@ -18,7 +18,7 @@ export default async function Page() {
       <div className="self-start whitespace-nowrap rounded-lg bg-gray-700 px-3 py-1 text-sm font-medium tabular-nums text-gray-100">
         Last Rendered: {new Date().toLocaleTimeString()}
       </div>
-      <h1>Welcome to Globomantics Sessions</h1>
+      <h1>Welcome to Conference Sessions</h1>
 
       {data.sessions.map(
         ({ id, title, description, room, day, track, speakers }) => (

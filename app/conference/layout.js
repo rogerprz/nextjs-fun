@@ -1,7 +1,11 @@
 export default function ConferenceLayout({ children }) {
   return (
     <>
-      <section>{children}</section>
+      <header>
+        <h1>G Test</h1>
+      </header>
+      test
+      <section>hello{children}</section>
     </>
   );
 }
